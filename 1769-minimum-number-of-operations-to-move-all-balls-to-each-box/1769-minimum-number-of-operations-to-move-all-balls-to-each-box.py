@@ -1,12 +1,23 @@
 class Solution:
-    def minOperations(self, box: str) -> List[int]:
-        one_ind = [i for i, val in enumerate(box) if val == "1"]
-        ans = []
-        for i in range(len(box)):
-            sm = 0
-            for num in one_ind:
-                sm+= abs(num-i)
-            ans.append(sm)    
-        return ans
+    def minOperations(self, boxes: str) -> List[int]:
+        n = len(boxes)
+        res = [0]*n
+
+        moves,balls = 0,0
+
+        for i in range(n):
+            res[i] = moves+balls
+            moves+=balls
+            balls+=int(boxes[i])
+            #print(res,moves,balls)
+        balls,moves = 0,0    
+        for i in reversed(range(n)):
+            res[i]+=(moves+balls)
+            moves+=balls
+            balls+=int(boxes[i])
+            #print(res,moves,balls) 
+        return res    
+          
+
                  
         
