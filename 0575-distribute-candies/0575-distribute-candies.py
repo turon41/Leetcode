@@ -1,7 +1,10 @@
 class Solution:
     def distributeCandies(self, candy: List[int]) -> int:
-        n = len(candy)
-        candy_s = set(candy)
-        return min(n//2 , len(candy_s))
+        h= defaultdict(int)
+        for c in candy:
+            h[c]+=1
+        return min(len(h),len(candy)//2)   
+
+         
 
         
