@@ -6,12 +6,13 @@ class Solution:
         h = defaultdict(int)
         l,mx = 0,0
         for right in range(len(fruits)):
-            h[fruits[right]]=right
+            h[fruits[right]]+=1
             
-            if len(h)>2:
-                min_ind = min(h.values())
-                l = min_ind+1
-                del h[fruits[min_ind]]
-            mx = max(mx,right-l+1)     
-
+            while len(h)>2:
+                h[fruits[l]]-=1
+                if h[fruits[l]]==0:
+                    del h[fruits[l]]
+                l+=1    
+            
+            mx = max(mx,right-l+1)
         return mx
