@@ -15,6 +15,5 @@ class Solution:
                 elif temp>0:
                   r-=1
                 else:
-                  l+=1
-        return [list(j) for j in ans]                 
-        
+                  l+=1                
+        return list(ans)
