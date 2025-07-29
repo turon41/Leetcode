@@ -5,10 +5,10 @@ class Solution:
         for letter in s:
             if letter not in ss:
                 ss.add(letter)
-                print(ss)
+                #print(ss)
             else:
                 ss.remove(letter)
-                print(ss)
+                #print(ss)
 
         if len(ss)!=0:
             return len(s)-len(ss)+1
