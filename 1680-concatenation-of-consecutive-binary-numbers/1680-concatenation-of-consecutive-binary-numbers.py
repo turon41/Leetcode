@@ -2,9 +2,11 @@ class Solution:
     def concatenatedBinary(self, n: int) -> int:
         res = 0
         mod = 10**9 + 7
+        bits = 0
         for i in range(1,n+1):
-            ans = len(bin(i))-2
-            res = (res<<ans | i) %mod
+            if i & i-1==0:
+                bits+=1
+            res = (res<<bits | i) %mod
         return res    
             
 
