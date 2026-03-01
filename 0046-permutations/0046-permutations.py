@@ -2,16 +2,17 @@ class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
         if len(nums)==1:
             return [nums[:]]
-        res = []    
+        n = len(nums)    
+        res,sol = [], []    
         
-        for _ in range(len(nums)):
-            n = nums.pop(0)
-            perms = self.permute(nums)
-
-            for p in perms:
-                p.append(n)
-
-            res.extend(perms)
-            nums.append(n)
-
-        return res   
+        def backtrack():
+            if len(sol)==n:
+                res.append(sol[:])
+                return
+            for e in nums:
+                if e not in sol:
+                    sol.append(e)
+                    backtrack()
+                    sol.pop()
+        backtrack()
+        return res                  
