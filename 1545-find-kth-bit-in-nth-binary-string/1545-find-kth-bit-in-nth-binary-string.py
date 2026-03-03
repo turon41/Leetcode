@@ -1,11 +1,17 @@
 class Solution:
     def findKthBit(self, n: int, k: int) -> str:
-        seq = "0"
-        for i in range(1,n):
-            if k<=len(seq):
-                break
-            seq+="1"
+        if n==1:
+            return "0"
+        l = (1<<n) -1
+        mid = l//2 +1
 
-            invert = "".join("1" if bit=="0" else "0" for bit in seq[:-1]) 
-            seq= seq + invert[::-1]
-        return seq[k-1]
+        if k==mid:
+            return 1
+        elif k<mid:
+            return self.findKthBit(n-1,k)
+        else:
+            mirror = l-k+1
+            bit = self.findKthBit(n-1,mirror) 
+            return "1" if bit=="0" else "0" 
+
+        
