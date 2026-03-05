@@ -11,12 +11,11 @@ class Solution:
             if cur_sum>target or i==n:
                 return
 
-            for j in range(i,n):
-                sol.append(nums[j])
-                backtrack(j,cur_sum+nums[j])
-                sol.pop()
+            sol.append(nums[i])
+            backtrack(i,cur_sum+nums[i])
+            sol.pop()
 
-            #backtrack(i+1,cur_sum)  #don't pick
+            backtrack(i+1,cur_sum)  #don't pick
         backtrack(0,0)
         return res          
 
