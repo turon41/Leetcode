@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0039-combination-sum](https://github.com/turon41/Leetcode/tree/main/0039-combination-sum/) | Medium |
 | [0078-subsets](https://github.com/turon41/Leetcode/tree/main/0078-subsets/) | Medium |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/turon41/Leetcode/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/turon41/Leetcode/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
@@ -21,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0039-combination-sum](https://github.com/turon41/Leetcode/tree/main/0039-combination-sum/) | Medium |
 | [0077-combinations](https://github.com/turon41/Leetcode/tree/main/0077-combinations/) | Medium |
 | [0078-subsets](https://github.com/turon41/Leetcode/tree/main/0078-subsets/) | Medium |
 ## Bit Manipulation
