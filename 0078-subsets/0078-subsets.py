@@ -7,13 +7,15 @@ class Solution:
                 res.append(sol[:])
                 return
 
-            # Don't pick nums[i]
-            backtrack(i+1)
+            
 
             # pick nums[i]
             sol.append(nums[i])
             backtrack(i+1)
-            sol.pop() 
+            sol.pop()
+
+            # Don't pick nums[i]
+            backtrack(i+1) 
 
         backtrack(0)      
         return res
