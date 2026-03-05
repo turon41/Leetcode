@@ -3,19 +3,16 @@ class Solution:
         sol,res = [],[]
         n = len(nums)
         def backtrack(i):
-            if i==n:
-                res.append(sol[:])
-                return
-
             
+            res.append(sol[:])
 
-            # pick nums[i]
-            sol.append(nums[i])
-            backtrack(i+1)
-            sol.pop()
+            for j in range(i,n):
+                sol.append(nums[j])                       # pick nums[i]
+                backtrack(j+1)          
+                sol.pop()
 
-            # Don't pick nums[i]
-            backtrack(i+1) 
+            # # Don't pick nums[i]
+            # backtrack(i+1)     #it happens through the loop
 
         backtrack(0)      
         return res
