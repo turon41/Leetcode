@@ -19,9 +19,7 @@ class Solution:
                 
             cur = min(diff, n - diff)
             
-            if res == 0:
-                return 0
-            else:
-                res = min(cur,res)    
+            
+            res = min(cur,res)    
                     
         return res
