@@ -18,9 +18,10 @@ class Solution:
                 diff += 1
                 
             cur = min(diff, n - diff)
-            if cur < res:
-                res = cur
-                if res == 0:
-                    return 0
+            
+            if res == 0:
+                return 0
+            else:
+                res = min(cur,res)    
                     
         return res
