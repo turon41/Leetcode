@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0078-subsets](https://github.com/turon41/Leetcode/tree/main/0078-subsets/) | Medium |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/turon41/Leetcode/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/turon41/Leetcode/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
+| [1980-find-unique-binary-string](https://github.com/turon41/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -25,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0039-combination-sum](https://github.com/turon41/Leetcode/tree/main/0039-combination-sum/) | Medium |
 | [0077-combinations](https://github.com/turon41/Leetcode/tree/main/0077-combinations/) | Medium |
 | [0078-subsets](https://github.com/turon41/Leetcode/tree/main/0078-subsets/) | Medium |
+| [1980-find-unique-binary-string](https://github.com/turon41/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -36,6 +38,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/turon41/Leetcode/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/turon41/Leetcode/tree/main/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/turon41/Leetcode/tree/main/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/) | Medium |
+| [1980-find-unique-binary-string](https://github.com/turon41/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -48,6 +51,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0013-roman-to-integer](https://github.com/turon41/Leetcode/tree/main/0013-roman-to-integer/) | Easy |
+| [1980-find-unique-binary-string](https://github.com/turon41/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
