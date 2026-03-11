@@ -31,6 +31,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0078-subsets](https://github.com/turon41/Leetcode/tree/main/0078-subsets/) | Medium |
+| [1009-complement-of-base-10-integer](https://github.com/turon41/Leetcode/tree/main/1009-complement-of-base-10-integer/) | Easy |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
