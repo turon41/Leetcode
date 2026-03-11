@@ -1,10 +1,10 @@
 class Solution:
     def bitwiseComplement(self, n: int) -> int:
-        s = bin(n)[2:]
-        ans = ""
-        for i in range(len(s)):
-            temp= int(s[i])^1
-            ans+=str(temp)
-        return int(ans,2)          
+        
+        if n==0:
+            return 1
+        ln = n.bit_length()
+        temp = (1<<ln)-1
+        return n^temp         
                       
         
