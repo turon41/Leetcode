@@ -60,6 +60,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0013-roman-to-integer](https://github.com/turon41/Leetcode/tree/main/0013-roman-to-integer/) | Easy |
+| [1622-fancy-sequence](https://github.com/turon41/Leetcode/tree/main/1622-fancy-sequence/) | Hard |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -89,4 +90,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/turon41/Leetcode/tree/main/3600-maximize-spanning-tree-stability-with-upgrades/) | Hard |
+## Design
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1622-fancy-sequence](https://github.com/turon41/Leetcode/tree/main/1622-fancy-sequence/) | Hard |
+## Segment Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1622-fancy-sequence](https://github.com/turon41/Leetcode/tree/main/1622-fancy-sequence/) | Hard |
 <!---LeetCode Topics End-->
