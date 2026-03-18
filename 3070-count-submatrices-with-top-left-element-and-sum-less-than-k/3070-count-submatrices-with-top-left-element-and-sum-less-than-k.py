@@ -9,4 +9,6 @@ class Solution:
                 px[i+1][j+1] = grid[i][j] + px[i][j+1] + px[i+1][j] - px[i][j]
                 if px[i+1][j+1] <= k:
                     ans += 1
+                else:
+                    break    
         return ans
